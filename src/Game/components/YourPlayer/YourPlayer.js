@@ -73,6 +73,7 @@ const YourPlayer = ({ G, ctx, playerID, moves }) => {
               revealCard(playerID, card.id);
             }
           }}
+          title={card.character}
           alt={card.character}
         />
       )
